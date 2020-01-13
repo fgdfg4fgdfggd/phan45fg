@@ -28,21 +28,21 @@ export const aboutCommand = {
         // noinspection JSUnresolvedFunction
         return message.channel.send({
           embed: {
-            title: 'devmod - about the bot',
+            title: 'Phantom - about the bot',
             color: blue,
-            url: 'https://github.com/redxtech/devmod',
-            description: 'devmod is a bot made for the DevCord community, but is applicable to any server that needs ' +
-              'moderating. It is written with discord.js. To use it on your own server, follow the steps in the ' +
-              'GitHub repo.',
+            url: 'https://rcdforum.com/',
+            description: 'Phantom is a bot made exclusively for ROBLOX Community Developers, ' +
+              'It is written with discord.js. ' +
+              'RCDForum.',
             fields: [
               {
                 name: 'Author:',
-                value: '<@170451883134156800>',
+                value: '<@605806584232411145>',
                 inline: true
               },
               {
-                name: 'GitHub Repo:',
-                value: 'https://github.com/redxtech/devmod',
+                name: 'RCDForum:',
+                value: 'https://rcdforum.com/',
                 inline: true
               }
             ],
